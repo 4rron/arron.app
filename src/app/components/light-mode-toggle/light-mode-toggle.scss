@@ -1,0 +1,19 @@
+@use "/src/variables.scss" as v;
+
+.lightModeToggle {
+    font-family: var(--font-accent);
+    padding-bottom: 1vh;
+    cursor: pointer;
+    width: fit-content;
+    float: right;
+    .selected {
+        color: var(--text);
+    }
+    p {
+        margin: 0;
+        display: inline;
+        padding: 1rem;
+        color: var(--text-inactive);
+        font-size: 2rem;
+    }
+}

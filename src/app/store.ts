@@ -1,9 +1,15 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import imageCarouselSlice from './reducers/image-carousel-slice';
+import photoReleaseFormSlice from './reducers/photo-release-form-slice';
+import headerSlice from './reducers/header-slice';
+import themeSlice from './reducers/theme-slice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    header: headerSlice,
+    imageCarousel: imageCarouselSlice,
+    photoReleaseForm: photoReleaseFormSlice,
+    theme: themeSlice
   },
 });
 
