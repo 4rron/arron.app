@@ -4,25 +4,34 @@ import { Provider } from "react-redux";
 import { store } from "./app/store";
 import reportWebVitals from "./reportWebVitals";
 import "./index.scss";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import ErrorPage from "./app/routes/error-page";
+import {
+    Route,
+    RouterProvider,
+    createBrowserRouter,
+    createRoutesFromElements,
+} from "react-router-dom";
 import PhotoRelease from "./app/routes/photo-release";
 import Landing from "./app/routes/landing";
+import TopicSelection from "./app/routes/topic-selection";
+import Root from "./app/routes/root";
+import ProblemSolving from "./app/routes/problem-solving";
+import Creative from "./app/routes/creative";
 
 const container = document.getElementById("root")!;
 const root = createRoot(container);
 
-const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Landing />,
-        errorElement: <ErrorPage />,
-    },
-    {
-        path: "/photo/release",
-        element: <PhotoRelease />,
-    },
-]);
+const router = createBrowserRouter(
+    createRoutesFromElements(
+        <Route path="/" element={<Root />}>
+            <Route index element={<Landing />} />
+            <Route path="selection" element={<TopicSelection />} />
+            <Route path="right-brain" element={<Creative />}>
+                <Route path="photo-release" element={<PhotoRelease />} />
+            </Route>
+            <Route path="left-brain" element={<ProblemSolving />} />
+        </Route>
+    )
+);
 
 root.render(
     <React.StrictMode>
