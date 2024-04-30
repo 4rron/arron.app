@@ -1,0 +1,60 @@
+{
+    "demons": [
+        "Personal challenge to make a full game level in under 48 hours",
+        "Created core time-warp mechanic to allow player to enter an investigation mode",
+        "Used post-processing effects to create an x-ray vision effect to detect enemies"
+    ],
+    "genesys": [
+        "Took ownership of multiple pages utilizing a wide range of technologies, primarily React.js/Typescript",
+        "Migrated web-component library from Ember to Stencil.js to help improve utility with the team's target tech stack",
+        "Mentored new employees in both technical and professional growth areas"
+    ],
+    "maxix": [
+        "Owned project lighting and mentored junior lighting artist throughout entirety of development cycle",
+        "Optimized lighting and geometry to add 60+ fps in difficult scenes on target hardware",
+        "Created reactive audio pieces that scale in intensity with game events"
+    ],
+    "ritual": [
+        "Organized team meetings and development effort throughout the project",
+        "Prioritized time between creating an engaging level design and assisting other developers",
+        "Received high praise for level design"
+    ],
+    "solontek": [
+        "Created widget-based dashboard UI and company branding guidelines",
+        "Started internal Elm libraries for data calculations and presentation as well as a proprietary SVG graphics library for all front-end elements/widgets",
+        "Documented processes and technical details behind UI elements, creating a knowledge base for future staff to build on"
+    ],
+    "upmc": [
+        "Transitioned codebase containing more than 10 years of projects over to GitHub to transition team into an Agile work environment, increasing productivity and decreasing turn-around time for bug fixes",
+        "Created internal web apps to present data from Oracle databases in user friendly manners, with one improving load times of data from over 3 minutes to less than 2 seconds, completely restructuring the way management monitored the related call center",
+        "24-hour turnaround time on changes proposed by end users to improve internally produced software, creating a well approved user interface that was accessible by key management and shareholders",
+        "Wrote internal and external documentation for the team's codebase as well as the procedures end users would encounter daily"
+    ],
+    "hobbies": {
+        "automotive": [
+            "1995 Suzuki Every - Always broken, but always a joy. This little van never fails to put a smile on my face, unless it's overheated on the side of a highway",
+            "2015 Jaguar F-Type - Quick, mean, and a hell of a lot of fun, this most recent addition has all of the crackles and pops to make me giggle like a school kid",
+            "2017 Yamaha FZ-07 - A torque filled machine that just can't seem to keep the front tire down no matter how hard I try",
+            "1998 Harley Davidson Wide Glide - A graduation gift from my father, every ride is filled with sentimental value that cannot be described"
+        ],
+        "odds": [
+            "Woodworking - Am I great? No. Does our console table with built in LEDs hold stuff and light up the room? Yes.",
+            "3D Design/Printing - I'll never get the right dimensions on the first try, but it's definitely rewarding when a part works and works well",
+            "Video Games - I won't dedicate a whole section to this, but I did get a degree in Game Programming and Development, so I enjoy them at least a little bit",
+            "Music Creation - Drums and Tuba, the wombo-combo if you will. I've also been working on my keyboard playing for creating game soundtracks",
+            "Cooking - It's always better when it's from scratch. You either get good food or learn what doesn't work well."
+        ],
+        "photography": [
+            "Started in elementary school with my mom's Kodak point and shoot film camera",
+            "Multiple weddings and senior portrait/graduation sessions",
+            "FAA Part 107 certified commercial drone pilot",
+            "I personally enjoy getting macro details out of everyday life, such as an animal's intricate feather design"
+        ],
+        "technology": [
+            "All started with a Dell laptop from eBay in 2004 that wouldn't hold a charge or connect to internet",
+            "Yes, I was 'the tech guy' in my family. I fixed phones, tablets, computers, picture frames, electric outlets, printers, and so much more",
+            "The desire to tear things apart and learn how they work drove me to go through settings/registry values while other kids were playing Club Penguin",
+            "Pile of laptops? Check. Bag full of old hard drives? Check. Office full of extra monitors? Check. Server closet? Check. What else do you want from me?"
+        ]
+    }
+}

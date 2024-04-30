@@ -1,0 +1,43 @@
+@import '../../variables.scss';
+
+.card {
+    background-color: #202020;
+    color: $text-color;
+    padding: 1em;
+    border-radius: 4px;
+    float: left;
+    margin: 12px;
+    width: 350px;
+    height: 400px;
+    overflow-y: auto;
+    box-shadow:
+        rgba(0, 0, 0, 0.16) 0px 3px 6px,
+        rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    .title {
+        font-size: larger;
+        font-weight: bold;
+    }
+    .subtitle {
+        font-style: italic;
+    }
+    .aside {
+        font-weight: bold;
+        font-size: x-small;
+        text-transform: uppercase;
+    }
+    .key-points {
+        text-align: left;
+        list-style: none;
+        margin: 0;
+        padding: 8px;
+        li {
+            margin-left: 0;
+            padding-bottom: 4px;
+        }
+    }
+}
+
+.card:hover {
+    transform: scale(102%);
+    transition: transform ease-in-out 0.1s;
+}
