@@ -1,5 +1,15 @@
 @import '../../variables.scss';
 
+a:hover {
+    outline: none;
+}
+
+a:focus,
+a:focus-visible {
+    border-radius: 2px;
+    outline: 2px $link-color-hover solid;
+}
+
 .card {
     background-color: #202020;
     color: $text-color;
@@ -13,6 +23,8 @@
     box-shadow:
         rgba(0, 0, 0, 0.16) 0px 3px 6px,
         rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transform: scale(100%);
+    transition: transform ease-out 0.1s;
     .title {
         font-size: larger;
         font-weight: bold;
@@ -38,6 +50,12 @@
 }
 
 .card:hover {
-    transform: scale(102%);
-    transition: transform ease-in-out 0.1s;
+    transform: scale(105%);
+    outline: 2px $link-color-hover solid;
+    transition: transform ease-out 0.1s;
+}
+
+.card:focus,
+.card:focus-visible {
+    outline: 4px $link-color-hover solid;
 }
