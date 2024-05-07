@@ -41,6 +41,14 @@ body {
     min-height: 100vh;
 }
 
+.card-collection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
 .clickable {
     cursor: pointer;
 }
