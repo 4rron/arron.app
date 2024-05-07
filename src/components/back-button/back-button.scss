@@ -1,8 +1,9 @@
+@import '../../variables.scss';
+
 .back-button {
     // Remove button styling
     -webkit-appearance: none;
     appearance: none;
-    border-radius: 0;
     text-align: inherit;
     background: none;
     box-shadow: none;
@@ -13,4 +14,12 @@
     font: inherit;
     // End remove button styling
     float: left;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+}
+
+.back-button:focus,
+.back-button:focus-visible {
+    outline: 4px $link-color-hover solid;
 }
