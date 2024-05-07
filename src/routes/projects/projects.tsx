@@ -1,12 +1,10 @@
-import { Link } from 'react-router-dom'
-import BackButton from '../../components/back-button/back-button'
-import Card from '../../components/card/card'
-import KeyPoints from '../../utils/key-points.json'
+import { Link } from 'react-router-dom';
+import Card from '../../components/card/card';
+import KeyPoints from '../../utils/key-points.json';
 
 export default function Projects() {
     return (
         <div className="projects">
-            <BackButton targetUrl="/" />
             <h1>Projects</h1>
             <Link to="maxix">
                 <Card
@@ -33,5 +31,5 @@ export default function Projects() {
                 />
             </Link>
         </div>
-    )
+    );
 }

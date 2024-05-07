@@ -1,11 +1,9 @@
-import BackButton from '../../components/back-button/back-button'
-import Card from '../../components/card/card'
-import Keypoints from '../../utils/key-points.json'
+import Card from '../../components/card/card';
+import Keypoints from '../../utils/key-points.json';
 
 export default function Hobbies() {
     return (
         <div className="hobbies">
-            <BackButton targetUrl="/" />
             <h1>Hobbies</h1>
             <Card
                 title="Photography"
@@ -32,5 +30,5 @@ export default function Hobbies() {
                 keypoints={Keypoints.hobbies.odds}
             />
         </div>
-    )
+    );
 }

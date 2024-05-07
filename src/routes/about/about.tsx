@@ -1,10 +1,8 @@
-import BackButton from '../../components/back-button/back-button'
-import './about.scss'
+import './about.scss';
 
 export default function About() {
     return (
         <div id="about">
-            <BackButton targetUrl="/" />
             <h1>About Me</h1>
             <p>
                 A software engineer with a passion for figuring out how things
@@ -87,5 +85,5 @@ export default function About() {
                 fit right in.
             </p>
         </div>
-    )
+    );
 }

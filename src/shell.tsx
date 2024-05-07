@@ -5,7 +5,9 @@ export default function Shell() {
     return (
         <>
             <NavBar />
-            <Outlet />
+            <div className="main-content">
+                <Outlet />
+            </div>
         </>
     );
 }

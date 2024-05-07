@@ -40,8 +40,8 @@ export default function BackButton(props: BackButtonProps) {
                 <IconBack
                     fillColor={mouseOver ? 'white' : '#242424'}
                     strokeColor={mouseOver ? '#242424' : 'white'}
-                    strokeWidth="20px"
-                    size="80px"
+                    strokeWidth="1em"
+                    size="2em"
                 />
             </Link>
         </div>
