@@ -1,13 +1,8 @@
-import { Link } from 'react-router-dom';
 import IconBack from '../../assets/icon-back';
 import './back-button.scss';
 import { useEffect, useState } from 'react';
 
-type BackButtonProps = {
-    targetUrl: string;
-};
-
-export default function BackButton(props: BackButtonProps) {
+export default function BackButton() {
     const [mouseOver, setMouseOver] = useState(false);
     const [headerClass, setHeaderClass] = useState('header');
 
@@ -28,14 +23,21 @@ export default function BackButton(props: BackButtonProps) {
         };
     }, []);
 
+    function checkKey(e: React.KeyboardEvent) {
+        if (e.key == 'enter') {
+            history.back();
+        }
+    }
+
     return (
         <div className={headerClass}>
-            <Link
-                to={props.targetUrl}
+            <button
                 aria-label="Back Button"
                 className="back-button"
                 onMouseOver={() => setMouseOver(true)}
                 onMouseOut={() => setMouseOver(false)}
+                onClick={() => history.back()}
+                onKeyDown={checkKey}
             >
                 <IconBack
                     fillColor={mouseOver ? 'white' : '#242424'}
@@ -43,7 +45,7 @@ export default function BackButton(props: BackButtonProps) {
                     strokeWidth="1em"
                     size="2em"
                 />
-            </Link>
+            </button>
         </div>
     );
 }

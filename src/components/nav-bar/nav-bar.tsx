@@ -3,7 +3,7 @@ import './nav-bar.scss';
 export default function NavBar() {
     return (
         <div className="nav-bar">
-            <BackButton targetUrl="" />
+            <BackButton />
         </div>
     );
 }
