@@ -1,0 +1,25 @@
+@import '../../variables.scss';
+
+.home-button {
+    // Remove button styling
+    -webkit-appearance: none;
+    appearance: none;
+    text-align: inherit;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    color: inherit;
+    font: inherit;
+    // End remove button styling
+    float: left;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+}
+
+.home-button:focus,
+.home-button:focus-visible {
+    outline: 4px $link-color-hover solid;
+}

@@ -1,8 +1,8 @@
-import IconBack from '../../assets/icon-back';
-import './back-button.scss';
 import { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import IconHome from '../../assets/icon-home';
 
-export default function BackButton() {
+export default function HomeButton() {
     const [mouseOver, setMouseOver] = useState(false);
     const [headerClass, setHeaderClass] = useState('header');
 
@@ -23,29 +23,22 @@ export default function BackButton() {
         };
     }, []);
 
-    function checkKey(e: React.KeyboardEvent) {
-        if (e.key == 'enter') {
-            history.back();
-        }
-    }
-
     return (
         <div className={headerClass}>
-            <button
-                aria-label="Back Button"
-                className="back-button"
+            <NavLink
+                to="/"
+                aria-label="Home Button"
+                className="home-button"
                 onMouseOver={() => setMouseOver(true)}
                 onMouseOut={() => setMouseOver(false)}
-                onClick={() => history.back()}
-                onKeyDown={checkKey}
             >
-                <IconBack
+                <IconHome
                     fillColor={!mouseOver ? 'white' : '#242424'}
                     strokeColor={!mouseOver ? '#242424' : 'white'}
                     strokeWidth="2px"
                     size="2.5em"
                 />
-            </button>
+            </NavLink>
         </div>
     );
 }
