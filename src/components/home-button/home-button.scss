@@ -1,4 +1,4 @@
-@import '../../variables.scss';
+@use '../../variables.scss' as var;
 
 .home-button {
     // Remove button styling
@@ -21,5 +21,5 @@
 
 .home-button:focus,
 .home-button:focus-visible {
-    outline: 4px $link-color-hover solid;
+    outline: 4px var.$link-color-hover solid;
 }

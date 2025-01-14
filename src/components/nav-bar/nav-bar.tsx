@@ -14,7 +14,7 @@ export default function NavBar() {
 
     // Hide back button if no history or on main menu
     const hasNoHistory = useMemo(() => {
-        return history.state.idx == 0 || window.location.pathname == '/';
+        return history.length == 0 || window.location.pathname == '/';
     }, [history, location]);
 
     return (
