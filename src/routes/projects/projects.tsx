@@ -7,7 +7,7 @@ export default function Projects() {
         <div className="projects">
             <h1>Projects</h1>
             <div className="card-collection">
-                <Link to="maxix">
+                <Link to="https://store.steampowered.com/app/2289120/Maxix_Robotics/">
                     <Card
                         title="Maxix Robotics"
                         subtitle="Technical Consultant"
@@ -15,7 +15,7 @@ export default function Projects() {
                         keypoints={KeyPoints.maxix}
                     />
                 </Link>
-                <Link to="ritual">
+                <Link to="https://peck2703.itch.io/the-ritual">
                     <Card
                         title="The Ritual"
                         subtitle="Team Lead/Level Designer"
@@ -23,7 +23,7 @@ export default function Projects() {
                         keypoints={KeyPoints.ritual}
                     />
                 </Link>
-                <Link to="demons">
+                <Link to="https://air272.itch.io/delete-the-demons">
                     <Card
                         title="Delete the Demons"
                         subtitle="Solo Developer"

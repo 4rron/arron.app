@@ -1,11 +1,11 @@
 @import '../../variables.scss';
 
-a:hover {
+.card-collection a:hover {
     outline: none;
 }
 
-a:focus,
-a:focus-visible {
+.card-collection a:focus,
+.card-collection a:focus-visible {
     border-radius: 2px;
     outline: 2px $link-color-hover solid;
 }
