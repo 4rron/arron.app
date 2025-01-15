@@ -10,11 +10,13 @@ export default function NavBar() {
     // Hide home button on main menu
     const isMainMenu = useMemo(() => {
         return window.location.pathname == '/';
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [location, window]);
 
     // Hide back button if no history or on main menu
     const hasNoHistory = useMemo(() => {
         return history.length == 0 || window.location.pathname == '/';
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [history, location]);
 
     return (

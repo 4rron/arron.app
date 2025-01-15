@@ -23,7 +23,7 @@ export default function About() {
                 deliver the day to day challenges and opportunities that I am
                 looking for.
             </p>
-            <h2>Now that that's out of the way...</h2>
+            <h2>Now that that&apos;s out of the way...</h2>
             <p>
                 My name is Arron, and I have a track record of not just doing my
                 job, but actively finding and fixing problems within
@@ -52,23 +52,23 @@ export default function About() {
                 </li>
                 <li>
                     Implementing a shared codebase and documentation standards
-                    into a company that "has always done it this way," leading
-                    to an increase in productivity along with a centralized
-                    resource for common user questions
+                    into a company that &quot;has always done it this way,&quot;
+                    leading to an increase in productivity along with a
+                    centralized resource for common user questions
                 </li>
             </ul>
             <p>
-                I could go on, but I think you get the point. Sometimes I'm in
-                the ceiling running network cables, sometimes I'm on a call with
-                a group of users figuring out what isn't working for them, and
-                sometimes I'm head-down working on code. There's not really a
-                "typical" day for me, and if that starts to become the case,
-                I'll be sure to fix that quickly by finding something that can
-                be improved.
+                I could go on, but I think you get the point. Sometimes I&apos;m
+                in the ceiling running network cables, sometimes I&apos;m on a
+                call with a group of users figuring out what isn&apos;t working
+                for them, and sometimes I&apos;m head-down working on code.
+                There&apos;s not really a &quot;typical&quot; day for me, and if
+                that starts to become the case, I&apos;ll be sure to fix that
+                quickly by finding something that can be improved.
             </p>
             <p>
                 With that being said, obviously a lot of this is not possible in
-                any sort of remote role. That doesn't mean I won't be
+                any sort of remote role. That doesn&apos;t mean I won&apos;t be
                 productive, it just means that my approach will be different. In
                 my most recent role, I took up a few extra passion projects,
                 mainly creating documentation for core components of our app,
@@ -79,10 +79,10 @@ export default function About() {
                 quite a bit from them myself!)
             </p>
             <p>
-                All in all, I'm not just another code monkey to throw on a team
-                and never talk to except for status reports. Give me a team that
-                works proactively together to improve their product, and I'll
-                fit right in.
+                All in all, I&apos;m not just another code monkey to throw on a
+                team and never talk to except for status reports. Give me a team
+                that works proactively together to improve their product, and
+                I&apos;ll fit right in.
             </p>
         </div>
     );
